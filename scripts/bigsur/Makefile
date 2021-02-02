@@ -91,7 +91,7 @@ SharedSupport.dmg : InstallAssistant.pkg $(XAR)
 	touch $@
 
 InstallAssistant.pkg :
-	../../fetch-macOS.py --version 11.1
+	../../fetch-macOS.py --version 11.2
 
 xar/xar/src/xar : xar/
 	cd xar/xar && ./autogen.sh
